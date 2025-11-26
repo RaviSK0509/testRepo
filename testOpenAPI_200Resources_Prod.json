@@ -1,0 +1,7398 @@
+openapi: 3.0.1
+info:
+  title: test_200ResourcesRestAPI
+  version: "1.0"
+servers:
+- url: https://ipaascle.int-aws-us.webmethods.io/integration/restv2/development/fla83b78f5a9c79e7b259715/test_200ResourcesRestAPI
+paths:
+  /add1:
+    post:
+      operationId: add1_POST_1
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add1_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add2:
+    post:
+      operationId: add2_POST_2
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add2_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add3:
+    post:
+      operationId: add3_POST_3
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add3_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add4:
+    post:
+      operationId: add4_POST_4
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add4_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add5:
+    post:
+      operationId: add5_POST_5
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add5_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add6:
+    post:
+      operationId: add6_POST_6
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add6_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add7:
+    post:
+      operationId: add7_POST_7
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add7_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add8:
+    post:
+      operationId: add8_POST_8
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add8_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add9:
+    post:
+      operationId: add9_POST_9
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add9_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add10:
+    post:
+      operationId: add10_POST_10
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add10_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add11:
+    post:
+      operationId: add11_POST_11
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add11_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add12:
+    post:
+      operationId: add12_POST_12
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add12_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add13:
+    post:
+      operationId: add13_POST_13
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add13_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add14:
+    post:
+      operationId: add14_POST_14
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add14_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add15:
+    post:
+      operationId: add15_POST_15
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add15_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add16:
+    post:
+      operationId: add16_POST_16
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add16_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add17:
+    post:
+      operationId: add17_POST_17
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add17_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add18:
+    post:
+      operationId: add18_POST_18
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add18_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add19:
+    post:
+      operationId: add19_POST_19
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add19_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add20:
+    post:
+      operationId: add20_POST_20
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add20_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add21:
+    post:
+      operationId: add21_POST_21
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add21_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add22:
+    post:
+      operationId: add22_POST_22
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add22_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add23:
+    post:
+      operationId: add23_POST_23
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add23_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add24:
+    post:
+      operationId: add24_POST_24
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add24_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add25:
+    post:
+      operationId: add25_POST_25
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add25_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add26:
+    post:
+      operationId: add26_POST_26
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add26_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add27:
+    post:
+      operationId: add27_POST_27
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add27_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add28:
+    post:
+      operationId: add28_POST_28
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add28_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add29:
+    post:
+      operationId: add29_POST_29
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add29_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add30:
+    post:
+      operationId: add30_POST_30
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add30_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add31:
+    post:
+      operationId: add31_POST_31
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add31_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add32:
+    post:
+      operationId: add32_POST_32
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add32_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add33:
+    post:
+      operationId: add33_POST_33
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add33_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add34:
+    post:
+      operationId: add34_POST_34
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add34_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add35:
+    post:
+      operationId: add35_POST_35
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add35_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add36:
+    post:
+      operationId: add36_POST_36
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add36_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add37:
+    post:
+      operationId: add37_POST_37
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add37_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add38:
+    post:
+      operationId: add38_POST_38
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add38_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add39:
+    post:
+      operationId: add39_POST_39
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add39_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add40:
+    post:
+      operationId: add40_POST_40
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add40_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add41:
+    post:
+      operationId: add41_POST_41
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add41_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add42:
+    post:
+      operationId: add42_POST_42
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add42_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add43:
+    post:
+      operationId: add43_POST_43
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add43_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add44:
+    post:
+      operationId: add44_POST_44
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add44_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add45:
+    post:
+      operationId: add45_POST_45
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add45_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add46:
+    post:
+      operationId: add46_POST_46
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add46_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add47:
+    post:
+      operationId: add47_POST_47
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add47_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add48:
+    post:
+      operationId: add48_POST_48
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add48_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add49:
+    post:
+      operationId: add49_POST_49
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add49_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add50:
+    post:
+      operationId: add50_POST_50
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add50_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add51:
+    post:
+      operationId: add51_POST_51
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add51_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add52:
+    post:
+      operationId: add52_POST_52
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add52_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add53:
+    post:
+      operationId: add53_POST_53
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add53_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add54:
+    post:
+      operationId: add54_POST_54
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add54_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add55:
+    post:
+      operationId: add55_POST_55
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add55_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add56:
+    post:
+      operationId: add56_POST_56
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add56_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add57:
+    post:
+      operationId: add57_POST_57
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add57_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add58:
+    post:
+      operationId: add58_POST_58
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add58_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add59:
+    post:
+      operationId: add59_POST_59
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add59_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add60:
+    post:
+      operationId: add60_POST_60
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add60_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add61:
+    post:
+      operationId: add61_POST_61
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add61_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add62:
+    post:
+      operationId: add62_POST_62
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add62_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add63:
+    post:
+      operationId: add63_POST_63
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add63_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add64:
+    post:
+      operationId: add64_POST_64
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add64_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add65:
+    post:
+      operationId: add65_POST_65
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add65_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add66:
+    post:
+      operationId: add66_POST_66
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add66_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add67:
+    post:
+      operationId: add67_POST_67
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add67_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add68:
+    post:
+      operationId: add68_POST_68
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add68_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add69:
+    post:
+      operationId: add69_POST_69
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add69_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /add70:
+    post:
+      operationId: add70_POST_70
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/add70_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul1:
+    post:
+      operationId: mul1_POST_71
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul1_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul2:
+    post:
+      operationId: mul2_POST_72
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul2_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul3:
+    post:
+      operationId: mul3_POST_73
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul3_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul4:
+    post:
+      operationId: mul4_POST_74
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul4_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul5:
+    post:
+      operationId: mul5_POST_75
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul5_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul6:
+    post:
+      operationId: mul6_POST_76
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul6_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul7:
+    post:
+      operationId: mul7_POST_77
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul7_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul8:
+    post:
+      operationId: mul8_POST_78
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul8_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul9:
+    post:
+      operationId: mul9_POST_79
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul9_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul10:
+    post:
+      operationId: mul10_POST_80
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul10_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul11:
+    post:
+      operationId: mul11_POST_81
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul11_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul12:
+    post:
+      operationId: mul12_POST_82
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul12_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul13:
+    post:
+      operationId: mul13_POST_83
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul13_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul14:
+    post:
+      operationId: mul14_POST_84
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul14_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul15:
+    post:
+      operationId: mul15_POST_85
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul15_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul16:
+    post:
+      operationId: mul16_POST_86
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul16_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul17:
+    post:
+      operationId: mul17_POST_87
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul17_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul18:
+    post:
+      operationId: mul18_POST_88
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul18_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul19:
+    post:
+      operationId: mul19_POST_89
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul19_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul20:
+    post:
+      operationId: mul20_POST_90
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul20_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul21:
+    post:
+      operationId: mul21_POST_91
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul21_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul22:
+    post:
+      operationId: mul22_POST_92
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul22_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul23:
+    post:
+      operationId: mul23_POST_93
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul23_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul24:
+    post:
+      operationId: mul24_POST_94
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul24_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul25:
+    post:
+      operationId: mul25_POST_95
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul25_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul26:
+    post:
+      operationId: mul26_POST_96
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul26_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul27:
+    post:
+      operationId: mul27_POST_97
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul27_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul28:
+    post:
+      operationId: mul28_POST_98
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul28_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul29:
+    post:
+      operationId: mul29_POST_99
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul29_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul30:
+    post:
+      operationId: mul30_POST_100
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul30_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul31:
+    post:
+      operationId: mul31_POST_101
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul31_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul32:
+    post:
+      operationId: mul32_POST_102
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul32_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul33:
+    post:
+      operationId: mul33_POST_103
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul33_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul34:
+    post:
+      operationId: mul34_POST_104
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul34_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul35:
+    post:
+      operationId: mul35_POST_105
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul35_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul36:
+    post:
+      operationId: mul36_POST_106
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul36_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul37:
+    post:
+      operationId: mul37_POST_107
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul37_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul38:
+    post:
+      operationId: mul38_POST_108
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul38_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul39:
+    post:
+      operationId: mul39_POST_109
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul39_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul40:
+    post:
+      operationId: mul40_POST_110
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul40_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul41:
+    post:
+      operationId: mul41_POST_111
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul41_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul42:
+    post:
+      operationId: mul42_POST_112
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul42_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul43:
+    post:
+      operationId: mul43_POST_113
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul43_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul44:
+    post:
+      operationId: mul44_POST_114
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul44_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul45:
+    post:
+      operationId: mul45_POST_115
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul45_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul46:
+    post:
+      operationId: mul46_POST_116
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul46_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul47:
+    post:
+      operationId: mul47_POST_117
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul47_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul48:
+    post:
+      operationId: mul48_POST_118
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul48_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul49:
+    post:
+      operationId: mul49_POST_119
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul49_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul50:
+    post:
+      operationId: mul50_POST_120
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul50_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul51:
+    post:
+      operationId: mul51_POST_121
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul51_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul52:
+    post:
+      operationId: mul52_POST_122
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul52_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul53:
+    post:
+      operationId: mul53_POST_123
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul53_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul54:
+    post:
+      operationId: mul54_POST_124
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul54_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul55:
+    post:
+      operationId: mul55_POST_125
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul55_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul56:
+    post:
+      operationId: mul56_POST_126
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul56_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul57:
+    post:
+      operationId: mul57_POST_127
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul57_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul58:
+    post:
+      operationId: mul58_POST_128
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul58_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul59:
+    post:
+      operationId: mul59_POST_129
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul59_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul60:
+    post:
+      operationId: mul60_POST_130
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul60_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul61:
+    post:
+      operationId: mul61_POST_131
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul61_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul62:
+    post:
+      operationId: mul62_POST_132
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul62_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul63:
+    post:
+      operationId: mul63_POST_133
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul63_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul64:
+    post:
+      operationId: mul64_POST_134
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul64_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul65:
+    post:
+      operationId: mul65_POST_135
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul65_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul66:
+    post:
+      operationId: mul66_POST_136
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul66_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul67:
+    post:
+      operationId: mul67_POST_137
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul67_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul68:
+    post:
+      operationId: mul68_POST_138
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul68_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul69:
+    post:
+      operationId: mul69_POST_139
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul69_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /mul70:
+    post:
+      operationId: mul70_POST_140
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/mul70_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div1:
+    post:
+      operationId: div1_POST_141
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div1_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div2:
+    post:
+      operationId: div2_POST_142
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div2_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div3:
+    post:
+      operationId: div3_POST_143
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div3_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div4:
+    post:
+      operationId: div4_POST_144
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div4_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div5:
+    post:
+      operationId: div5_POST_145
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div5_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div6:
+    post:
+      operationId: div6_POST_146
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div6_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div7:
+    post:
+      operationId: div7_POST_147
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div7_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div8:
+    post:
+      operationId: div8_POST_148
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div8_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div9:
+    post:
+      operationId: div9_POST_149
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div9_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div10:
+    post:
+      operationId: div10_POST_150
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div10_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div11:
+    post:
+      operationId: div11_POST_151
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div11_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div12:
+    post:
+      operationId: div12_POST_152
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div12_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div13:
+    post:
+      operationId: div13_POST_153
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div13_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div14:
+    post:
+      operationId: div14_POST_154
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div14_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div15:
+    post:
+      operationId: div15_POST_155
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div15_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div16:
+    post:
+      operationId: div16_POST_156
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div16_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div17:
+    post:
+      operationId: div17_POST_157
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div17_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div18:
+    post:
+      operationId: div18_POST_158
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div18_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div19:
+    post:
+      operationId: div19_POST_159
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div19_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div20:
+    post:
+      operationId: div20_POST_160
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div20_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div21:
+    post:
+      operationId: div21_POST_161
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div21_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div22:
+    post:
+      operationId: div22_POST_162
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div22_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div23:
+    post:
+      operationId: div23_POST_163
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div23_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div24:
+    post:
+      operationId: div24_POST_164
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div24_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div25:
+    post:
+      operationId: div25_POST_165
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div25_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div26:
+    post:
+      operationId: div26_POST_166
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div26_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div27:
+    post:
+      operationId: div27_POST_167
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div27_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div28:
+    post:
+      operationId: div28_POST_168
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div28_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div29:
+    post:
+      operationId: div29_POST_169
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div29_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div30:
+    post:
+      operationId: div30_POST_170
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div30_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div31:
+    post:
+      operationId: div31_POST_171
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div31_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div32:
+    post:
+      operationId: div32_POST_172
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div32_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div33:
+    post:
+      operationId: div33_POST_173
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div33_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div34:
+    post:
+      operationId: div34_POST_174
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div34_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div35:
+    post:
+      operationId: div35_POST_175
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div35_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div36:
+    post:
+      operationId: div36_POST_176
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div36_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div37:
+    post:
+      operationId: div37_POST_177
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div37_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div38:
+    post:
+      operationId: div38_POST_178
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div38_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div39:
+    post:
+      operationId: div39_POST_179
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div39_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div40:
+    post:
+      operationId: div40_POST_180
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div40_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div41:
+    post:
+      operationId: div41_POST_181
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div41_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div42:
+    post:
+      operationId: div42_POST_182
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div42_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div43:
+    post:
+      operationId: div43_POST_183
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div43_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div44:
+    post:
+      operationId: div44_POST_184
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div44_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div45:
+    post:
+      operationId: div45_POST_185
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div45_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div46:
+    post:
+      operationId: div46_POST_186
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div46_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div47:
+    post:
+      operationId: div47_POST_187
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div47_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div48:
+    post:
+      operationId: div48_POST_188
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div48_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div49:
+    post:
+      operationId: div49_POST_189
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div49_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div50:
+    post:
+      operationId: div50_POST_190
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div50_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div51:
+    post:
+      operationId: div51_POST_191
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div51_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div52:
+    post:
+      operationId: div52_POST_192
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div52_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div53:
+    post:
+      operationId: div53_POST_193
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div53_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div54:
+    post:
+      operationId: div54_POST_194
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div54_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div55:
+    post:
+      operationId: div55_POST_195
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div55_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div56:
+    post:
+      operationId: div56_POST_196
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div56_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div57:
+    post:
+      operationId: div57_POST_197
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div57_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div58:
+    post:
+      operationId: div58_POST_198
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div58_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div59:
+    post:
+      operationId: div59_POST_199
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div59_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /div60:
+    post:
+      operationId: div60_POST_200
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              required:
+              - Num1
+              - Num2
+              type: object
+              properties:
+                Num1:
+                  type: string
+                Num2:
+                  type: string
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/div60_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /receivedInvoice:
+    get:
+      operationId: receivedInvoice_GET_201
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/receivedInvoice_GET_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /salesforceBulkDataLoader:
+    get:
+      operationId: salesforceBulkDataLoader_GET_202
+      responses:
+        "200":
+          description: OK
+          content: {}
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+    post:
+      operationId: salesforceBulkDataLoader_POST_202
+      responses:
+        "200":
+          description: OK
+          content: {}
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+  /test:
+    post:
+      operationId: test_POST_203
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/body'
+        required: true
+      responses:
+        "200":
+          description: OK
+          content: {}
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+      x-codegen-request-body-name: body
+  /complexFlow:
+    post:
+      operationId: complexFlow_POST_204
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TestDoc'
+        required: true
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/complexFlow_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+      x-codegen-request-body-name: TestDoc
+  /parentFS:
+    post:
+      operationId: parentFS_POST_205
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/parentFS_POST_response_1'
+        "401":
+          description: Access Denied
+          content: {}
+      security:
+      - _basicAuth: []
+components:
+  schemas:
+    mul33_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul63_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div16_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div58_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add6_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add18_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add48_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul21_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul51_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div6_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul6_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div34_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div5_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div21_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div51_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul5_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div28_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div46_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div33_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul20_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul50_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div40_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div10_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add35_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div17_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add29_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add59_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div57_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add60_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul46_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add30_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul16_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul57_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    raw:
+      type: object
+    add52_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add37_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add65_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add67_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add24_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add11_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add41_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add54_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul27_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul14_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul44_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div11_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul68_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul38_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div53_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add46_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div23_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    complexFlow_POST_response_1:
+      required:
+      - CC_Result
+      - DateString
+      - ReferenceDocOutput
+      - RegexValue
+      type: object
+      properties:
+        DateString:
+          type: string
+        RegexValue:
+          type: string
+        tpa:
+          $ref: '#/components/schemas/tpa'
+        CC_Result:
+          type: string
+        ReferenceDocOutput:
+          type: string
+    add16_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul7_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div14_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div44_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add64_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add34_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul29_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul59_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add4_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul23_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul52_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul22_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add31_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    parentFS_POST_response_1:
+      required:
+      - ParentOutput
+      type: object
+      properties:
+        ParentOutput:
+          type: string
+    add61_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div7_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul53_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div15_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul4_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add42_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div45_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add68_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div29_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div59_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add12_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul34_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul41_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul11_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div3_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul64_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul37_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul67_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add38_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div26_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div52_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div22_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div56_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add23_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div18_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div48_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add53_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div30_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div60_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul60_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul30_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul15_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul45_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul26_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul56_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add7_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div41_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add49_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add19_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div37_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul12_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add50_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add39_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div9_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul54_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add20_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul2_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul24_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add69_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul42_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add9_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add15_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul19_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul49_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul36_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add57_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add44_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add14_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul18_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add3_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add27_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul66_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    receivedInvoice_GET_response_1:
+      required:
+      - Invoice Amount
+      type: object
+      properties:
+        Invoice Amount:
+          type: string
+    add45_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add2_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul48_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add62_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add32_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    body:
+      required:
+      - raw
+      type: object
+      properties:
+        raw:
+          $ref: '#/components/schemas/raw'
+    mul25_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add26_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul8_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul3_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div38_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add63_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add33_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div36_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div31_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add56_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul55_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul1_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    tpaData:
+      type: object
+      description: tpaData
+    div19_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div49_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div12_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div25_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div55_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div42_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul61_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div2_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul31_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div32_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add55_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add25_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul47_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add1_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul17_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    TestDoc:
+      required:
+      - Field1
+      - Field2
+      type: object
+      properties:
+        Field1:
+          type: string
+        Field2:
+          type: string
+    add22_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add43_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add8_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add13_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div39_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div35_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div4_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add28_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul65_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div27_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div47_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul70_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul40_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul10_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul35_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add58_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div20_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div50_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div24_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add21_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul62_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add5_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add51_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div8_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add17_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    tpa:
+      type: object
+      properties:
+        tpaID:
+          type: string
+          description: tpaID
+        senderID:
+          type: string
+          description: senderID
+        receiverID:
+          type: string
+          description: receiverID
+        agreementName:
+          type: string
+          description: agreementName
+        created:
+          type: string
+          description: created
+        lastModified:
+          type: string
+          description: lastModified
+        status:
+          type: string
+          description: status
+        templateID:
+          type: string
+          description: templateID
+        dataStatus:
+          type: string
+          description: dataStatus
+        tpaData:
+          $ref: '#/components/schemas/tpaData'
+        version:
+          type: string
+          description: version
+      description: tpa
+    add47_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add10_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div1_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add36_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add66_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div13_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add40_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div43_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul28_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul43_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul58_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul32_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul13_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul69_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul39_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    add70_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    mul9_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+    div54_POST_response_1:
+      required:
+      - Result
+      type: object
+      properties:
+        Result:
+          type: string
+  securitySchemes:
+    _basicAuth:
+      type: http
+      scheme: basic
+x-original-swagger-version: "2.0"
